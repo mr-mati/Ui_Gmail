@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mail"
+        android:icon="@drawable/mail_child"
+        android:iconTint="@color/black"
+        tools:ignore="MenuTitle" />
+
+    <item
+        android:id="@+id/meet"
+        android:icon="@drawable/meet_child"
+        android:iconTint="@color/black"
+        tools:ignore="MenuTitle" />
+
+</menu>

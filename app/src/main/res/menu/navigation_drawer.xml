@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/one">
+        <item
+            android:id="@+id/all_inboxes"
+            android:icon="@drawable/ic_all_inbox"
+            android:title="All inboxes" />
+    </group>
+
+    <group android:id="@+id/two">
+        <item
+            android:id="@+id/Primary"
+            android:icon="@drawable/ic_primary"
+            android:title="Primary" />
+
+        <item
+            android:id="@+id/Promotions"
+            android:icon="@drawable/ic_promotions"
+            android:title="Promotions" />
+
+        <item
+            android:id="@+id/Social"
+            android:icon="@drawable/ic_social"
+            android:title="Social" />
+    </group>
+
+    <item android:title="All labels">
+        <menu>
+            <item
+                android:id="@+id/Starred"
+                android:icon="@drawable/ic_star"
+                android:title="Starred" />
+
+            <item
+                android:id="@+id/Snoozed"
+                android:icon="@drawable/ic_snoozed"
+                android:title="Snoozed" />
+
+            <item
+                android:id="@+id/Important"
+                android:icon="@drawable/ic_importent"
+                android:title="Important" />
+
+            <item
+                android:id="@+id/Send"
+                android:icon="@drawable/ic_send"
+                android:title="Send" />
+
+            <item
+                android:id="@+id/Schedule"
+                android:icon="@drawable/ic_schedule"
+                android:title="Schedule" />
+
+            <item
+                android:id="@+id/Outbox"
+                android:icon="@drawable/ic_outbox"
+                android:title="Outbox" />
+
+            <item
+                android:id="@+id/Drafts"
+                android:icon="@drawable/ic_drafts"
+                android:title="Drafts" />
+
+            <item
+                android:id="@+id/Draftss"
+                android:icon="@drawable/ic_drafts"
+                android:title="Drafts" />
+
+            <item
+                android:id="@+id/Spam"
+                android:icon="@drawable/ic_spam"
+                android:title="Spam" />
+
+            <item
+                android:id="@+id/Trash"
+                android:icon="@drawable/ic_trash"
+                android:title="Trash" />
+
+        </menu>
+    </item>
+
+    <item android:title="Google apps">
+        <menu>
+            <item
+                android:id="@+id/Calender"
+                android:icon="@drawable/ic_calendar"
+                android:title="Calender" />
+
+            <item
+                android:id="@+id/Contacts"
+                android:icon="@drawable/ic_calendar"
+                android:title="Contacts" />
+        </menu>
+    </item>
+
+    <group android:id="@+id/finish">
+        <item
+            android:id="@+id/Setting"
+            android:icon="@drawable/ic_setting"
+            android:title="Setting" />
+
+        <item
+            android:id="@+id/Help"
+            android:icon="@drawable/ic_promotions"
+            android:title="@string/help_feedback" />
+    </group>
+
+</menu>
